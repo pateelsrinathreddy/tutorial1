@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  height: 100vh;
+  background-color: #F48221;
+  margin: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.back{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  /* margin: 50px; */
+  padding: 20px;
+  
 }
+.heading{
+color: var(--font-color, #333);
 
-.App-link {
-  color: #61dafb;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
 }
+.para{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal
+}
+.image1{
+  background-image: url('C:/Users/Srinath Reddy/Desktop/training/gitpractice/public/sofa1.png');
+  /* width: 356px; */
+  height: 489px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  background-size: cover;
+}
+.heading1{
+color: var(--font-color, #333);
+text-align: center;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.image2{
+  background-image: url('C:/Users/Srinath Reddy/Desktop/training/gitpractice/public/coat.png');
+  /* width: 376px; */
+  height: 489px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.image3{
+  background-image: url('C:/Users/Srinath Reddy/Desktop/training/gitpractice/public/flower.png');
+  /* width: 376px; */
+  height: 489px;
+  flex-shrink: 0;
+  border-radius: 15px;
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
